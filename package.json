@@ -1,0 +1,27 @@
+{
+  "name": "nickproxy",
+  "version": "1.0.0",
+  "description": "Proxy server for welp components",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamwelp/nickProxy.git"
+  },
+  "keywords": [
+    "server",
+    "proxy"
+  ],
+  "author": "Nick Adams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamwelp/nickProxy/issues"
+  },
+  "homepage": "https://github.com/teamwelp/nickProxy#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
