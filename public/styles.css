@@ -1,3 +1,9 @@
+#yelpHeader {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #D32323;
+}
 #appColumn {
   display: flex;
   flex-direction:  column;
@@ -15,4 +21,8 @@
 #reviewsAdsColumn {
   display: flex;
   flex-direction: column;
+}
+
+#bodyRow a {
+  color: blue;
 }
